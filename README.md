@@ -30,5 +30,5 @@ func Middleware(next http.Handler) http.Handler {
 ```
 
 In the Kubernetes apiserver, the whole picture is more complex but still builds on this fundamental pattern.
-This tutorial aims to bridge the gap between the familiar `http.Handler` concept and the complete workings
+This tutorial aims to bridge the gap between the familiar `http.Handler` concept of Go and the complete workings
 of the Kubernetes apiserver.
